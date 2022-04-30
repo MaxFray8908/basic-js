@@ -1,5 +1,5 @@
-const { dateSample } = require('./carbon-dating.js');
+const { createDreamTeam } = require('./dream-team.js');
 
 
 
-console.log(dateSample('12'));
+console.log(createDreamTeam(3));
