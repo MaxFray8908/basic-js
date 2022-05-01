@@ -1,7 +1,7 @@
-const { calculateHanoi } = require('./hanoi-tower.js');
+const { transform } = require('./transform-array.js');
 
 
 
 
 
-console.log(calculateHanoi(9, 4308));
+console.log(transform([1, 2, 3, '--discard-next', 1337, '--discard-prev', 4, 5]));
